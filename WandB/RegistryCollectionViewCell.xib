@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RegistryCollectionViewCell" id="gTV-IL-0wX" customClass="RegistryCollectionViewCell" customModule="WandB" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="240"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="240" height="240"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GrB-aJ-e4m" userLabel="CoupleImageView">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="240"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOY-fC-wt2" userLabel="CoubleLabel">
+                        <rect key="frame" x="8" y="204" width="224" height="21"/>
+                        <color key="backgroundColor" red="0.67859120034535503" green="0.69523009533477387" blue="0.74514678030303028" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <size key="customSize" width="135" height="128"/>
+            <connections>
+                <outlet property="coupleImageView" destination="GrB-aJ-e4m" id="Noa-ta-3Yu"/>
+                <outlet property="coupleLabel" destination="IOY-fC-wt2" id="eL2-30-GiR"/>
+            </connections>
+            <point key="canvasLocation" x="181" y="418"/>
+        </collectionViewCell>
+    </objects>
+</document>
